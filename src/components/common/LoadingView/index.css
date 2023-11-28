@@ -1,0 +1,39 @@
+/* LoadingView */
+
+/* -----> Desktop View <----- */
+@media screen and (min-width: 768px) {
+  .loading-view-component {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loader {
+    width: 53.333px;
+    height: 53.333px;
+    flex-shrink: 0;
+    fill: #4094ef;
+  }
+}
+
+/* -----> Mobile View <----- */
+@media screen and (max-width: 767px) {
+  .loading-view-component {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loader {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    fill: #4094ef;
+  }
+}

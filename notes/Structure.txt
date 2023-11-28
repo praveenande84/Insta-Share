@@ -1,0 +1,85 @@
+InstaContext:
+------------------------------------------------------------------
+  userStoriesList: [],
+  onUpdateUserStoriesList: () => {},
+
+  userPostsList:[],
+  onUpdateUserPostsList:() => {},
+
+  searchValue: '',
+  onUpdateSearchValue: () => {},
+
+  myProfileData:{},
+  onUpdateMyProfileData: () => {},
+
+  userProfileData:{},
+  onUpdateUserProfileData: () => {},
+
+  isNightModeActive: false,
+  onUpdateIsNightModeActive: () => {},
+=====================================================================
+Components:
+-----------------
+Login
+Home
+UserProfile
+MyProfile
+NotFound
+ProtectedRoute
+--------------------
+common:
+--------------------
+Header
+LoadingView
+FailureView
+UserProfileSection
+UserPostsSection
+MyProfileSection
+MyPostsSection
+HomeUserStories
+HomePostsSection
+SearchPostsSection
+PostItem
+=======================================================================
+App Component:
+-------------------
+Login
+Home
+UserProfile
+MyProfile
+NotFound
+ProtectedRoute
+=======================================================================
+Login:
+====================================================================
+Home Component:
+---------------------
+Header
+HomeUserStories
+HomePostsSection
+SearchPostsSection
+LoadingView
+FailureView
+=======================================================================
+UserProfile:
+-----------------------
+Header
+UserProfileSection
+UserPostsSection
+LoadingView
+FailureView
+=======================================================================
+MyProfile:
+-----------------------
+MyProfileSection
+MyPostsSection
+LoadingView
+FailureView
+=======================================================================
+NotFound:
+=======================================================================
+
+
+
+
+

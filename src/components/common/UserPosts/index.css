@@ -1,0 +1,146 @@
+/* UserPosts Component */
+
+/* -----> Desktop View <----- */
+@media screen and (min-width: 768px) {
+  .user-posts-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loading-view {
+    width: 1040px;
+    height: 866px;
+    flex-shrink: 0;
+    border-radius: 4px 4px 0px 0px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .posts-failure-view {
+    width: 1040px;
+    height: 866px;
+    flex-shrink: 0;
+    border-radius: 4px 4px 0px 0px;
+    border: 2px solid #dbdbdb;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .user-posts-alert-icon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    fill: #4094ef;
+  }
+
+  .user-posts-failure-description {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .user-posts-try-again-button {
+    display: flex;
+    padding: 8px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #4094ef;
+    color: var(--light-base-white, #fff);
+    /* Action / Button / Small */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+/* -----> Mobile View <----- */
+@media screen and (max-width: 767px) {
+  .loading-view {
+    width: 100vw;
+    height: 640px;
+    flex-shrink: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .posts-failure-view {
+    width: 100vw;
+    height: 640px;
+    flex-shrink: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-posts-alert-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: #4094ef;
+  }
+
+  .user-posts-failure-description {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .user-posts-try-again-button {
+    display: flex;
+    padding: 8px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #4094ef;
+    color: var(--light-base-white, #fff);
+    /* Action / Button / Small */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .user-posts-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

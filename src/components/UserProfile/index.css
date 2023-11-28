@@ -1,0 +1,17 @@
+/* UserProfile */
+
+/* -----> Desktop View <----- */
+@media screen and (min-width:767px){
+    .my-profile-container{
+        height: 100vh;
+        max-width:100vw;
+    }
+}
+
+/* -----> Mobile View <----- */
+@media screen and (max-width:767px){
+        .my-profile-container {
+                height: 100vh;
+                max-width:100vw;
+            }
+}

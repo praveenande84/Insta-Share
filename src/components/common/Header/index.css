@@ -1,0 +1,339 @@
+/* Header Component */
+
+/* -----> Desktop View <----- */
+@media screen and (min-width: 768px) {
+  .header-component {
+    background: #fff;
+    min-height: 10vh;
+    margin: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-view {
+    display: none;
+  }
+  .desktop-view {
+    width: 100vw;
+    padding: 10px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-heading-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-right: 50px;
+    padding: 10px;
+    min-width: 250px;
+  }
+
+  .search-navlinks-button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: 50px;
+  }
+
+  .website-logo {
+    width: 59px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+
+  .logo-heading {
+    color: #262626;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+  }
+
+  .search-box-container {
+    min-width: 214px;
+    max-width: 240px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-box {
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    color: #989898;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .night-mode-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .search-icon-container {
+    border: none;
+    outline: none;
+    width: 34px;
+    flex-shrink: 0;
+    height: 29px;
+    border-radius: 0px 2px 2px 0px;
+    background: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-icon {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    fill: #989898;
+    cursor: pointer;
+  }
+
+  .nav-items-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .nav-item {
+    list-style-type: none;
+    color: #262626;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 128.571% */
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #262626;
+  }
+
+  .logout-button {
+    padding: 8px 24px;
+    border-radius: 4px;
+    background-color: #4094ef;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 133.333% */
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .activeTabButtonClassName {
+    color: #4094ef !important;
+    border-bottom: solid #4094ef 2px;
+  }
+}
+
+/* -----> Mobile View <----- */
+@media screen and (max-width: 767px) {
+  .header-component {
+    background: #fff;
+    min-height: 10vh;
+  }
+
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .logo-heading-hamburger-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-heading-group {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-right: 50px;
+  }
+
+  .website-logo {
+    width: 55px;
+    height: 28px;
+    flex-shrink: 0;
+  }
+
+  .logo-heading {
+    color: #262626;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 133.333% */
+  }
+
+  .hamburger-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 50px;
+    cursor: pointer;
+  }
+
+  .night-mode-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .navItems-button-close-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navItems-button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .nav-item {
+    list-style-type: none;
+    cursor: pointer;
+    color: #262626;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 128.571% */
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #262626;
+  }
+
+  .logout-button {
+    display: flex;
+    padding: 8px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #4094ef;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .close-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .search-box-container {
+    height: 28px;
+    max-width: 280px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-box {
+    width: 280px;
+    color: #262626;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 8px 12px;
+    border: none;
+    outline: none;
+  }
+
+  .search-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 26px;
+    flex-shrink: 0;
+    border-radius: 0px 2px 2px 0px;
+    background: #dbdbdb;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .search-icon {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    fill: #989898;
+    cursor: pointer;
+  }
+
+  .activeTabButtonClassName {
+    color: #4094ef;
+    border-bottom: solid #4094ef 2px;
+  }
+}

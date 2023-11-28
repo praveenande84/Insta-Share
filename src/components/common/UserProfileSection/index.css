@@ -1,0 +1,221 @@
+/* ProfileSection Component */
+
+/* -----> Desktop View <----- */
+
+@media screen and (min-width: 768px) {
+  .mobile-profile-pic {
+    display: none;
+  }
+
+  .profile-section-component {
+    margin: 35px 200px;
+  }
+
+  .profile-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .profile-details-container {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 90px;
+  }
+
+  .username-heading {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    /* 100% */
+  }
+
+  .counting-container {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .counting {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .user-id {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .user-bio {
+    width: 675px;
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    width: 675px;
+  }
+
+  .stories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    margin: 36px 0px;
+  }
+
+  .story-image-container {
+    width: 86px;
+    height: 86px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    border: 2px solid grey;
+    padding: 2px;
+  }
+
+  .user-story-item {
+    list-style-type: none;
+  }
+
+  .story-image {
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 39px;
+  }
+}
+
+/* -----> Mobile View <----- */
+
+@media screen and (max-width: 767px) {
+  .desktop-profile-pic {
+    display: none;
+  }
+
+  .profile-section-component {
+    padding: 0px 24px;
+  }
+
+  .username-heading {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .profile-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .profile-pic {
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 48px;
+  }
+
+  .counting-container {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .counting {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .user-id {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+  }
+
+  .user-bio {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+  }
+
+  .stories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 12px;
+    margin: 24px 0px;
+  }
+
+  .story-image-container {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 2px solid grey;
+    padding: 2px;
+  }
+
+  .user-story-item {
+    list-style-type: none;
+  }
+
+  .story-image {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+  }
+}

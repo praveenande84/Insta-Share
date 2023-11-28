@@ -1,0 +1,173 @@
+/* PostsSection Component */
+
+/* -----> Desktop View <----- */
+
+@media screen and (min-width: 768px) {
+  .posts-section-component {
+    margin: 35px 200px;
+  }
+
+  .postHeading-postsIcon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .posts-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .posts-heading {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 133.333% */
+  }
+
+  .posts-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+  }
+
+  .post-section-post-item {
+    list-style-type: none;
+  }
+
+  .posts-section-post-image {
+    width: 330px;
+    height: 330px;
+    flex-shrink: 0;
+  }
+
+  .no-posts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .camera-icon-container {
+    width: 86px;
+    height: 86px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    border: 2px solid #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .camera-icon {
+    width: 48px;
+    height: 45px;
+    flex-shrink: 0;
+  }
+
+  .no-posts-description {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px;
+    /* 150% */
+  }
+}
+
+/* -----> Mobile View <----- */
+@media screen and (max-width: 767px) {
+  .posts-section-component {
+    margin: 24px 10px;
+  }
+
+  .postHeading-postsIcon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    margin-left: 24px;
+  }
+
+  .posts-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .posts-heading {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+  }
+
+  .posts-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .post-section-post-item {
+    list-style-type: none;
+  }
+
+  .posts-section-post-image {
+    width: 118px;
+    height: 118px;
+    flex-shrink: 0;
+  }
+
+  .no-posts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .camera-icon-container {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1.116px solid #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .camera-icon {
+    width: 29.023px;
+    height: 26.791px;
+    flex-shrink: 0;
+  }
+
+  .no-posts-description {
+    color: #262626;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 133.333% */
+  }
+}

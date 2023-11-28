@@ -1,0 +1,29 @@
+[
+	{
+		"App": [
+			{ "Login": "Login Component" },
+			{
+				"Home": [
+					"Header",
+					{ "UserStories": "API Call" },
+					{ "UserPosts": "API Call" }
+				]
+			},
+			{
+				"UserProfile": [
+					"Header",
+					{ "UserProfileSection": "API Call" },
+					{ "UserPostsSection": "API Call" }
+				]
+			},
+			{
+				"MyProfile": [
+					"Header",
+					{ "MyProfileSection": "API Call" },
+					{ "MyPostsSection": "API Call" }
+				]
+			},
+			{ "NotFound": "NotFound Component" }
+		]
+	}
+]
